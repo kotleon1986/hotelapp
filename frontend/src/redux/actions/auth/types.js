@@ -1,0 +1,9 @@
+const authActionTypes = {
+    AUTH_REQUEST:  "AUTH_REQUEST",
+    AUTH_REQUEST_FINISHED: "AUTH_REQUEST_FINISHED",
+
+    SET_CURRENT_USER: "SET_CURRENT_USER",
+    LOGOUT_USER: "LOGOUT_USER"
+};
+
+export default authActionTypes;

@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.text-fields {
+  margin-right: 1rem !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.submit-button {
+  margin: 0 10px;
+
+  svg {
+    margin-right: .3rem;
+  }
+}
+
+div.image-upload-container {
+  position: relative;
+
+  div.image-preview {
+    max-width: 300px;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  div.image-upload-actions {
+    position: absolute;
+    bottom: 1em;
+    right: .3rem;
+    opacity: 0.1;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+  }
+
+  &:hover {
+    div.image-upload-actions {
+      opacity: 1;
+    }
+  }
+}
+
+div.dashboard-title {
+  h5 {
+    svg {
+      vertical-align: text-top;
+      margin-right: .2rem;
+    }
+  }
+}
+
+#add_entity_button {
+  margin-left: .5rem;
+}
